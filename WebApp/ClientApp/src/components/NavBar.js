@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { AppBar, IconButton, Typography } from '@material-ui/core';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function NavBar() {
   return <AppBar position="static">
@@ -8,7 +9,7 @@ function NavBar() {
     </Typography>
     <IconButton
       aria-label="github repository">
-
+        <GitHubIcon />
     </IconButton>
   </AppBar>;
 }
