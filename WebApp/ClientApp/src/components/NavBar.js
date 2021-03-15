@@ -1,12 +1,16 @@
 import * as React from 'react';
-import AppBar from '@material-ui/core/AppBar';
+import { AppBar, IconButton, Typography } from '@material-ui/core';
 
 function NavBar() {
-    return <AppBar position="static">
-            <Typography variant="h6" className={classes.title}>
+  return <AppBar position="static">
+    <Typography variant="h6" >
       Game-Board
     </Typography>
-    </AppBar>;
+    <IconButton
+      aria-label="github repository">
+
+    </IconButton>
+  </AppBar>;
 }
 
 export default NavBar;
